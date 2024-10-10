@@ -1,5 +1,7 @@
 torch
 torch.utils
+torch.nn
+torchtext
 pathlib
 os
 tqdm
