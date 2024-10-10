@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import math
-
+import numpy as np
 class LayerNormalization(nn.Module):
 
     def __init__(self, features: int, eps:float=10**-6) -> None:
