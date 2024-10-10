@@ -1,5 +1,6 @@
 import torch
 import torch.nn as nn
+import torchtext
 from torch.utils.data import Dataset
 
 class BilingualDataset(Dataset):
